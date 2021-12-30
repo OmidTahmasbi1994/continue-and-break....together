@@ -1,7 +1,6 @@
 # continue-and-break...together
 
 #include <iostream>
-#include <iomanip>
 
 using namespace std;
 int main()
@@ -18,11 +17,11 @@ int main()
 			
 			cin>>c;
 			
-			if ( c=='y') continue;
+			if ( c=='y') 
 			
+			continue;
 			break;
 		}
 
 	cout<<"Total Of loops: "<<n<<endl;
 }
-
